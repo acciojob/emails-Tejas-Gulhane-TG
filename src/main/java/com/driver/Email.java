@@ -46,14 +46,7 @@ public class Email {
             }
             if(vis[0]==true && vis[1]==true && vis[2]==true && vis[3]==true && vis[4]==true){
                 this.password=newPassword;
-                System.out.println("Password has been changed");
             }
-            else{
-                System.out.println("Password not contain all character");
-            }
-        }
-        else{
-            System.out.println("Old Password Not matched");
         }
     }
 }
